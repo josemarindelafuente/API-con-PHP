@@ -23,7 +23,7 @@ if ( count($routesArray) == $cantidad_de_partes_URL) {
 
    // SI LA PETICION TIENE 3 PARTES, ENTONCES TIENE UN PARAMETRO PARA CONSULTAR
    // TAMBIEN VERIFICO QUE VENGA POR MEDIO DE ALGUNOS DE LOS METODOS REQUEST
-    if ( count($routesArray) == ($cantidad_de_partes_URL+1) && isset($_SERVER['REQUEST_METHOD'])) {
+    if ( count($routesArray) == ($cantidad_de_partes_URL +1 ) && isset( $_SERVER['REQUEST_METHOD']) ) {
 
         if ($_SERVER['REQUEST_METHOD']=='GET'){
             
@@ -59,5 +59,5 @@ if ( count($routesArray) == $cantidad_de_partes_URL) {
 }
 
 
-//CONTINUAR EN EL VIDEO 9 DEL TUTORIAL
+//CONTINUAR EN EL VIDEO 11 DEL TUTORIAL
 //https://www.youtube.com/watch?v=-UW_x-3mwkU&list=PLEbpWR0TUWTYj-822YDewMS0188i2e4O2&index=7

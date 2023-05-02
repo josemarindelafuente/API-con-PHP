@@ -1,3 +1,4 @@
 [01-May-2023 13:21:46 UTC] PHP Notice:  Undefined index: root in C:\laragon\www\api-con-php\version1\models\connection.php on line 27
 [01-May-2023 13:43:48 UTC] PHP Notice:  Undefined index: root in C:\laragon\www\api-con-php\version1\models\connection.php on line 27
 [01-May-2023 13:52:45 UTC] PHP Notice:  Undefined variable: response in C:\laragon\www\api-con-php\version1\routes\services\get.php on line 13
+[01-May-2023 23:44:24 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: no parameters were bound in C:\laragon\www\api-con-php\version1\models\get.model.php on line 13
